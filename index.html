@@ -1,217 +1,244 @@
 <!DOCTYPE html>
 <html lang="tr">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Ekibimiz | Profesyonel Takımımız</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ekibimiz ile Tanışın</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
-  <header>
-    <div class="container header-content">
-      <h1>Ekibimizle Tanışın</h1>
-      <p>Alanında uzman, deneyimli ve yenilikçi ekibimizle en iyi hizmeti sunmak için buradayız.</p>
-    </div>
-  </header>
-
-  <main class="container">
-    <section class="filters">
-      <h2>Ekibimizi Keşfedin</h2>
-      <div class="filter-buttons">
-        <button class="filter-btn active" data-filter="all">Tümü</button>
-        <button class="filter-btn" data-filter="development">Geliştirme</button>
-        <button class="filter-btn" data-filter="design">Tasarım</button>
-        <button class="filter-btn" data-filter="management">Yönetim</button>
-        <button class="filter-btn" data-filter="analysis">Analiz</button>
-      </div>
-    </section>
-
-    <section class="team">
-      <div class="member animate" data-category="development">
-        <div class="member-img-container">
-          <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80" alt="Ahmet Yılmaz">
-          <div class="member-overlay">
-            <div class="social-links">
-              <a href="#"><i class="fab fa-linkedin"></i></a>
-              <a href="#"><i class="fab fa-twitter"></i></a>
-              <a href="#"><i class="fab fa-github"></i></a>
-            </div>
-          </div>
-        </div>
-        <div class="member-content">
-          <h2>Ahmet Yılmaz</h2>
-          <span class="member-role">Yazılım Geliştirici</span>
-          <p class="member-brief">Full-stack geliştirici, React ve Node.js uzmanı. 8 yılı aşkın tecrübesiyle birçok projeye imza attı.</p>
-          <a href="#" class="view-profile" data-member="ahmet">Profilini Görüntüle <i class="fas fa-arrow-right"></i></a>
-        </div>
-      </div>
-
-      <div class="member animate delay-1" data-category="design">
-        <div class="member-img-container">
-          <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=776&q=80" alt="Elif Demir">
-          <div class="member-overlay">
-            <div class="social-links">
-              <a href="#"><i class="fab fa-linkedin"></i></a>
-              <a href="#"><i class="fab fa-twitter"></i></a>
-              <a href="#"><i class="fab fa-dribbble"></i></a>
-            </div>
-          </div>
-        </div>
-        <div class="member-content">
-          <h2>Elif Demir</h2>
-          <span class="member-role">UI/UX Tasarımcı</span>
-          <p class="member-brief">Modern ve kullanıcı dostu arayüz tasarımlarında uzman. Kullanıcı deneyimini ön planda tutar.</p>
-          <a href="#" class="view-profile" data-member="elif">Profilini Görüntüle <i class="fas fa-arrow-right"></i></a>
-        </div>
-      </div>
-
-      <div class="member animate delay-2" data-category="management">
-        <div class="member-img-container">
-          <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80" alt="Mehmet Kaya">
-          <div class="member-overlay">
-            <div class="social-links">
-              <a href="#"><i class="fab fa-linkedin"></i></a>
-              <a href="#"><i class="fab fa-twitter"></i></a>
-              <a href="#"><i class="fas fa-globe"></i></a>
-            </div>
-          </div>
-        </div>
-        <div class="member-content">
-          <h2>Mehmet Kaya</h2>
-          <span class="member-role">Proje Yöneticisi</span>
-          <p class="member-brief">Takım yönetimi ve proje planlamasında deneyimli. 50'den fazla projeyi başarıyla tamamladı.</p>
-          <a href="#" class="view-profile" data-member="mehmet">Profilini Görüntüle <i class="fas fa-arrow-right"></i></a>
-        </div>
-      </div>
-
-      <div class="member animate delay-1" data-category="analysis">
-        <div class="member-img-container">
-          <img src="https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=761&q=80" alt="Zeynep Şahin">
-          <div class="member-overlay">
-            <div class="social-links">
-              <a href="#"><i class="fab fa-linkedin"></i></a>
-              <a href="#"><i class="fab fa-twitter"></i></a>
-              <a href="#"><i class="fas fa-chart-line"></i></a>
-            </div>
-          </div>
-        </div>
-        <div class="member-content">
-          <h2>Zeynep Şahin</h2>
-          <span class="member-role">Veri Analisti</span>
-          <p class="member-brief">Büyük veri ve istatistiksel analiz konularında uzman. Verilerden anlamlı içgörüler çıkarır.</p>
-          <a href="#" class="view-profile" data-member="zeynep">Profilini Görüntüle <i class="fas fa-arrow-right"></i></a>
-        </div>
-      </div>
-
-      <div class="member animate delay-2" data-category="development">
-        <div class="member-img-container">
-          <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80" alt="Ali Koç">
-          <div class="member-overlay">
-            <div class="social-links">
-              <a href="#"><i class="fab fa-linkedin"></i></a>
-              <a href="#"><i class="fab fa-twitter"></i></a>
-              <a href="#"><i class="fas fa-server"></i></a>
-            </div>
-          </div>
-        </div>
-        <div class="member-content">
-          <h2>Ali Koç</h2>
-          <span class="member-role">Sistem Mühendisi</span>
-          <p class="member-brief">Altyapı, ağ ve güvenlik sistemlerinde tecrübeli. Kritik sistemleri yönetme konusunda uzman.</p>
-          <a href="#" class="view-profile" data-member="ali">Profilini Görüntüle <i class="fas fa-arrow-right"></i></a>
-        </div>
-      </div>
-
-      <div class="member animate delay-3" data-category="management">
-        <div class="member-img-container">
-          <img src="https://images.unsplash.com/photo-1551836022-d5d88e9218df?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80" alt="Ayşe Yıldız">
-          <div class="member-overlay">
-            <div class="social-links">
-              <a href="#"><i class="fab fa-linkedin"></i></a>
-              <a href="#"><i class="fab fa-twitter"></i></a>
-              <a href="#"><i class="fab fa-instagram"></i></a>
-            </div>
-          </div>
-        </div>
-        <div class="member-content">
-          <h2>Ayşe Yıldız</h2>
-          <span class="member-role">Dijital Pazarlama Uzmanı</span>
-          <p class="member-brief">SEO, sosyal medya ve reklam kampanyalarında uzman. Marka bilinirliği artırma konusunda başarılı.</p>
-          <a href="#" class="view-profile" data-member="ayse">Profilini Görüntüle <i class="fas fa-arrow-right"></i></a>
-        </div>
-      </div>
-    </section>
-  </main>
-
-  <!-- Modal -->
-  <div class="modal" id="memberModal">
-    <div class="modal-content">
-      <div class="modal-header">
-        <div class="modal-close" id="modalClose">
-          <i class="fas fa-times"></i>
-        </div>
-      </div>
-      <div class="modal-body">
-        <div class="modal-image">
-          <img id="modalImg" src="" alt="">
-        </div>
-        <div class="modal-details">
-          <h2 id="modalName"></h2>
-          <div class="modal-role" id="modalRole"></div>
-          <p class="modal-bio" id="modalBio"></p>
-          
-          <div class="modal-stats">
-            <div class="stat-item">
-              <div class="stat-value" id="statProjects">50+</div>
-              <div class="stat-label">Tamamlanan Proje</div>
-            </div>
-            <div class="stat-item">
-              <div class="stat-value" id="statExperience">8+</div>
-              <div class="stat-label">Yıl Deneyim</div>
-            </div>
-            <div class="stat-item">
-              <div class="stat-value" id="statClients">45+</div>
-              <div class="stat-label">Mutlu Müşteri</div>
-            </div>
-            <div class="stat-item">
-              <div class="stat-value" id="statAwards">12</div>
-              <div class="stat-label">Kazanılan Ödül</div>
-            </div>
-          </div>
-          
-          <div class="modal-social">
-            <a href="#"><i class="fab fa-linkedin"></i></a>
-            <a href="#"><i class="fab fa-twitter"></i></a>
-            <a href="#"><i class="fab fa-github"></i></a>
-            <a href="#"><i class="fas fa-globe"></i></a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <footer>
     <div class="container">
-      <div class="footer-content">
-        <div class="footer-logo">Bizim Takım</div>
-        <p class="footer-description">Profesyonel ekibimizle en iyi hizmeti sunmak için buradayız. Bize ulaşın ve projelerinizde birlikte çalışalım.</p>
-        
-        <div class="footer-social">
-          <a href="#"><i class="fab fa-facebook"></i></a>
-          <a href="#"><i class="fab fa-twitter"></i></a>
-          <a href="#"><i class="fab fa-linkedin"></i></a>
-          <a href="#"><i class="fab fa-instagram"></i></a>
+        <div class="header">
+            <h1>Ekibimiz ile Tanışın</h1>
+            <p>16 kişilik profesyonel ekibimizi yakından tanıyın</p>
         </div>
         
-        <div class="footer-bottom">
-          <p>© 2023 Bizim Takım. Tüm hakları saklıdır.</p>
+        <div class="carousel-container">
+            <button class="nav-arrow left-arrow">
+                <i class="fas fa-chevron-left"></i>
+            </button>
+            
+            <div class="team-carousel">
+                <div class="team-member">
+                    <div class="member-name">Keynn0</div>
+                    <div class="member-role">MODERATOR</div>
+                    <div class="member-description">
+                        Topluluk yönetimi ve içerik moderasyonu konusunda uzmanlaşmış deneyimli moderator.
+                    </div>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-discord"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                
+                <div class="team-member">
+                    <div class="member-name">Sarah</div>
+                    <div class="member-role">GELİŞTİRİCİ</div>
+                    <div class="member-description">
+                        Full-stack developer ve yapay zeka meraklısı. Projelerin teknik altyapısını yönetiyor.
+                    </div>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-github"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+                
+                <div class="team-member">
+                    <div class="member-name">Michael</div>
+                    <div class="member-role">TASARIMCI</div>
+                    <div class="member-description">
+                        UI/UX tasarımı ve kullanıcı deneyimi konusunda uzman. Yaratıcı çözümler üretiyor.
+                    </div>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-behance"></i></a>
+                        <a href="#"><i class="fab fa-dribbble"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                
+                <div class="team-member">
+                    <div class="member-name">Emma</div>
+                    <div class="member-role">İLETİŞİM</div>
+                    <div class="member-description">
+                        Marka iletişimi ve sosyal medya yönetimi. Topluluk etkileşimini güçlendiriyor.
+                    </div>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                
+                <div class="team-member">
+                    <div class="member-name">Alex</div>
+                    <div class="member-role">PROJE YÖNETİCİSİ</div>
+                    <div class="member-description">
+                        Proje yönetimi ve organizasyon konusunda deneyimli. Ekip koordinasyonunu sağlıyor.
+                    </div>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-medium"></i></a>
+                    </div>
+                </div>
+                
+                <div class="team-member">
+                    <div class="member-name">Lisa</div>
+                    <div class="member-role">VERİ ANALİSTİ</div>
+                    <div class="member-description">
+                        Veri analizi ve istatistik konusunda uzman. İş zekası raporlamaları hazırlıyor.
+                    </div>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-github"></i></a>
+                        <a href="#"><i class="fab fa-kaggle"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+                
+                <div class="team-member">
+                    <div class="member-name">David</div>
+                    <div class="member-role">GÜVENLİK UZMANI</div>
+                    <div class="member-description">
+                        Siber güvenlik ve ağ yönetimi konusunda uzman. Sistem güvenliğini sağlıyor.
+                    </div>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-github"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+                
+                <div class="team-member">
+                    <div class="member-name">Sophia</div>
+                    <div class="member-role">İÇERİK YAZARI</div>
+                    <div class="member-description">
+                        İçerik stratejisi ve metin yazarlığı konusunda uzman. SEO uyumlu içerikler üretiyor.
+                    </div>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-medium"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                
+                <div class="team-member">
+                    <div class="member-name">James</div>
+                    <div class="member-role">FRONTEND GELİŞTİRİCİ</div>
+                    <div class="member-description">
+                        Modern frontend teknolojilerinde uzman. Kullanıcı arayüzleri geliştiriyor.
+                    </div>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-github"></i></a>
+                        <a href="#"><i class="fab fa-codepen"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+                
+                <div class="team-member">
+                    <div class="member-name">Olivia</div>
+                    <div class="member-role">BACKEND GELİŞTİRİCİ</div>
+                    <div class="member-description">
+                        Backend sistemleri ve veritabanı yönetimi konusunda uzman. API'lar geliştiriyor.
+                    </div>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-github"></i></a>
+                        <a href="#"><i class="fab fa-stack-overflow"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+                
+                <div class="team-member">
+                    <div class="member-name">William</div>
+                    <div class="member-role">DEVOPS MÜHENDİSİ</div>
+                    <div class="member-description">
+                        DevOps süreçleri ve bulut altyapıları konusunda uzman. CI/CD pipeline'ları kuruyor.
+                    </div>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-github"></i></a>
+                        <a href="#"><i class="fab fa-docker"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+                
+                <div class="team-member">
+                    <div class="member-name">Ava</div>
+                    <div class="member-role">DİJİTAL PAZARLAMA</div>
+                    <div class="member-description">
+                        Dijital pazarlama stratejileri ve reklam yönetimi konusunda uzman. Marka bilinirliğini artırıyor.
+                    </div>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+                
+                <div class="team-member">
+                    <div class="member-name">Lucas</div>
+                    <div class="member-role">MOBİL GELİŞTİRİCİ</div>
+                    <div class="member-description">
+                        iOS ve Android uygulama geliştirme konusunda uzman. Native ve cross-platform çözümler üretiyor.
+                    </div>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-apple"></i></a>
+                        <a href="#"><i class="fab fa-android"></i></a>
+                        <a href="#"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+                
+                <div class="team-member">
+                    <div class="member-name">Mia</div>
+                    <div class="member-role">KALİTE GÜVENCE</div>
+                    <div class="member-description">
+                        Yazılım test otomasyonu ve kalite güvence süreçleri konusunda uzman. Ürün kalitesini sağlıyor.
+                    </div>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-github"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-stack-overflow"></i></a>
+                    </div>
+                </div>
+                
+                <div class="team-member">
+                    <div class="member-name">Henry</div>
+                    <div class="member-role">VERİ TABANI UZMANI</div>
+                    <div class="member-description">
+                        Veritabanı yönetim sistemleri ve optimizasyon konusunda uzman. Veri güvenliğini sağlıyor.
+                    </div>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-github"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-stack-overflow"></i></a>
+                    </div>
+                </div>
+                
+                <div class="team-member">
+                    <div class="member-name">Charlotte</div>
+                    <div class="member-role">MÜŞTERİ İLİŞKİLERİ</div>
+                    <div class="member-description">
+                        Müşteri deneyimi ve ilişki yönetimi konusunda uzman. Müşteri memnuniyetini artırıyor.
+                    </div>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+            
+            <button class="nav-arrow right-arrow">
+                <i class="fas fa-chevron-right"></i>
+            </button>
         </div>
-      </div>
+        
+        <div class="carousel-dots">
+            <!-- JavaScript ile noktalar eklenecek -->
+        </div>
     </div>
-  </footer>
 
-  <script src="script.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
