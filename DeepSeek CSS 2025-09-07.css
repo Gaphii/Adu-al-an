@@ -1,0 +1,89 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+    color: #333;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 40px;
+    color: #2c3e50;
+}
+
+.employee-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.employee-card {
+    position: relative;
+    width: 120px; /* Küçük profil boyutu */
+    height: 120px;
+    border-radius: 50%; /* Daire formu */
+    overflow: hidden;
+    cursor: pointer;
+    transition: all 0.5s ease;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* Mouse üzerine gelindiğinde olacaklar JS ile bu class eklenecek */
+.employee-card.active {
+    width: 300px; /* Büyüdüğündeki genişlik */
+    height: 400px; /* Büyüdüğündeki yükseklik */
+    border-radius: 10px; /* Köşeleri yuvarlak */
+}
+
+.profile-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: opacity 0.5s ease;
+}
+
+.employee-card.active .profile-img {
+    opacity: 0.2; /* Kart büyüdüğünde resmi silikleştir */
+}
+
+.employee-info {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    opacity: 0; /* Başlangıçta gizli */
+    transition: opacity 0.5s ease;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.employee-card.active .employee-info {
+    opacity: 1; /* Kart büyüdüğünde bilgileri göster */
+}
+
+.employee-info h2 {
+    margin: 0 0 10px 0;
+    color: #2c3e50;
+}
+
+.employee-info .title {
+    font-style: italic;
+    color: #e74c3c;
+    margin-bottom: 15px;
+}
+
+.employee-info .description {
+    font-size: 0.9rem;
+    line-height: 1.4;
+}
